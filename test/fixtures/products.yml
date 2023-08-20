@@ -1,0 +1,33 @@
+# == Schema Information
+#
+# Table name: products
+#
+#  id           :bigint           not null, primary key
+#  name         :string
+#  code         :string
+#  description  :text
+#  price        :float
+#  url          :string
+#  publish_date :date
+#  published    :boolean          default(FALSE)
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+one:
+  name: MyString
+  code: MyString
+  description: MyText
+  price: 1.5
+  url: MyString
+  publish_date: 2023-08-20
+  published: false
+
+two:
+  name: MyString
+  code: MyString
+  description: MyText
+  price: 1.5
+  url: MyString
+  publish_date: 2023-08-20
+  published: false
