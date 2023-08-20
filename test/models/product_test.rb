@@ -9,7 +9,7 @@
 #  price        :float
 #  url          :string
 #  publish_date :date
-#  published    :boolean
+#  published    :boolean          default(FALSE)
 #  created_at   :datetime         not null
 #  updated_at   :datetime         not null
 #
