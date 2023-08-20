@@ -73,3 +73,5 @@ end
 
 
 gem 'annotate'
+
+gem 'faker'
